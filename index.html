@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- MAIN CSS-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!---GOOGLE FONT-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+   
+<!---FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!---BOOTSTRAPS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<title>Ăn vặt </title>
+   
+
+</head>
+<body>
+    <!---HEADER-->
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#trang">Trang chủ</a></li>
+                <li> <a href="#ttin">Thông tin</a></li>
+                <li><a href="#menu1"> Menu</a></li>
+                 <li><a href="#lien">Liên hệ</a></li>
+                 <li class="nav__more">
+                    <a href="#">Thêm</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <div class="nav__item">
+                        <a href="#">Chúng tôi</a>
+                        <a href="#">Mở rộng</a>
+                        <a href="#">Kế hoạch</a>
+                    </div>
+
+                 </li>
+            </ul>
+         </nav>
+        <div class= "header__search">
+           <i class="fa fa-search"></i>
+        </div>
+    </header>
+
+    <!---CAROUSEL -->
+    <section class="carouselanvat">
+      <a name="trang">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./banner slide.png" class="d-block w-100" alt="hình ảnh carousel 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Bánh tráng trộn</h5>
+        <p>“Bánh tráng trộn đầy topping, chua cay mặn ngọt hòa quyện, ăn là ghiền!”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./banner slide (1).png" class="d-block w-100" alt="hình ảnh carousel 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Trà sữa trân châu</h5>
+        <p>“Trà sữa đậm vị trà, béo nhẹ vừa đủ, kết hợp trân châu mềm dai chuẩn vị.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./banner slide (2).png" class="d-block w-100" alt="hình ảnh carousel 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cá viên chiên</h5>
+        <p>“Cá viên chiên giòn rụm, đậm vị, thưởng thức là ghiền ngay!”</p>
+      </div>
+    </div>
+  </div>
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</a>
+    </section>
+
+    <!---THÔNG TIN-->
+    <section class="tt spacing">
+      <a name="ttin">
+      <div class="heading">
+        <h1>Thông tin</h1>
+      <p>Chúng tôi bán đồ ăn vặt</p>
+    </div>
+    <div class="tt_content">
+      <p>Quán ăn vặt nhỏ của chúng tôi ra đời để mang đến những món ăn quen thuộc, đậm vị và phù hợp cho mọi buổi trò chuyện cùng bạn bè. Mỗi món được làm thủ công, giữ đúng sự tươi ngon và phong cách đường phố gần gũi. Không chỉ vậy, chúng tôi còn đưa ra một số loại món ăn từ các quốc gia khác trong khoảng thười gian nhất định. Đây là ảnh gian hàng của chúng tôi.</p> <br>
+      <div class="tt_food">
+        <div class="tt_yum">
+          <img src="./Hình ảnh địa điểm (1).png" alt="hình ảnh địa điểm"> <br> <br>
+          <h5>Chi nhánh HCM</h5>
+        </div>
+        <div class="tt_yum">
+          <img src="./Hình ảnh địa điểm (2).png" alt="hình ảnh địa điểm"> <br> <br>
+          <h5>Chi nhánh Đà Nẵng</h5>
+        </div>
+        <div class="tt_yum">
+          <img src="./Hình ảnh địa điểm.png" alt="hình ảnh địa điểm">
+          <br> <br>
+          <h5>Chí nhánh Hà Nội</h5>
+        </div>
+      </div>
+    </div>
+   </a>
+    </section>
+
+    <!---MENU-->
+    <section class="Monannuocuong spacing">
+      <a name="menu1">
+      <div class="heading heading--white">
+        <h1>Món ăn thức uống</h1>
+        <p>Đây là menu của chúng tôi</p>
+      </div>
+      <div class="Monannuocuong_content">
+        <div class="tour_date">
+          <ul>
+            <li>
+              <p>Nachos: tortilla chips, phô mai tan chảy,thịt bò bằm, sốt salsa...</p>
+              <p class="tour_dateSale">Limited</p>
+            </li>
+            <li>
+              <p>Tacos: tortilla , thịt bò xay, phô mai, xà lách, cà chua, hành tây,...</p>
+              <p class="tour_dateSale">Limited</p>
+            </li>
+            <li>
+              <p>Taquitos: tortilla, bò bằm, phô mai, hành tây, ớt jalapeño,...</p>
+              <p class="tour_dateSale">Limited</p>
+            </li>
+          </ul>
+        </div>
+        <div class="tour_tickets">
+          <div class="tour_item">
+            <img src="./Hình ảnh đồ ăn.png" alt="Hình ảnh trà sữa">
+            <h6>Bánh tráng</h6>
+            <p>25k</p>
+            <p>Bánh tráng trộn kèm với trứng cút, khô bò và các topping khác</p>
+            <button>Mua ngay</button>
+          </div>
+
+          <div class="tour_item">
+            <img src="./Hình ảnh đồ ăn (1).png" alt="Hình ảnh khoai tây chiên">
+            <h6>Milo dầm</h6>
+            <p>25k</p>
+            <p>Milo dầm cùng trân châu đường đên nhà làm</p>
+            <button>Mua ngay</button>
+          </div>
+
+          <div class="tour_item">
+            <img src="./Hình ảnh đồ ăn (2).png" alt="Hình ảnh trà tắc thảo mộc">
+            <h6>Đồ viên</h6>
+            <p>75k</p>
+            <p>Một khay đồ viên và các nước sốt đi kèm</p>
+            <button>Mua ngay</button>
+          </div>
+        </div>
+      </div>
+      </a>
+    </section>
+
+    <!---CONTACT-->
+    <section class="contact spacing">
+      <a name="lien">
+      <div class="heading">
+        <h1>Liên hệ</h1>
+        <p>Liên hệ chúng tôi nếu có thắc mắc hay đánh giá</p>
+      </div>
+      <div class="contact_content">
+        <div class="contact_left">
+          <div class="contact_item">
+          <i class="fa fa-comments"></i>
+            <p>Ăn vặt cùng Bê</p>
+          </div>
+
+        <div class="contact_item">
+            <i class="fa fa-phone"></i>
+            <p>+83402398324</p>
+          </div>
+
+        <div class="contact_item">
+            <i class="fa fa-at"></i>
+            <p>anvatcungBe@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact_right">
+          <form action="">
+            <div class="contact_input">
+              <input type="text" placeholder="Name"> 
+              <input type="email" placeholder="Email"> 
+            </div>
+            <input type="text" placeholder="Message">
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+      </div>
+      </a>
+    </section>
+    <!---IMAGE-->
+    <section class="image">
+    </section>
+    <!---FOOTER--->
+    <footer>
+      <div class="footer_icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <p>Được tạo bởi <a href="https://youtu.be/dQw4w9WgXcQ?si=mzR53aoQZV798V5L">Ăn vặt cùng Bê</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

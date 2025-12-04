@@ -1,0 +1,309 @@
+/*GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Lato", sans-serif;
+
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.heading p{
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #313030;
+    margin-bottom: 10px;
+}
+.heading--white{
+    color: #643d23;
+}
+.heading--white p{
+    color: #643d23;
+}
+.spacing{
+    padding: 85px 20px;
+}
+/* HEADER */
+header {
+    background-color: #643d23;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+header ul{
+    margin: 0;
+}
+.nav__item{
+    z-index: 999;
+}
+ul {
+    padding-left: 50px;
+}
+header > nav > ul > li {
+    list-style: none ;
+
+}
+
+header > nav > ul > li:hover{
+background-color: #F5E6D3;
+}
+header > nav > ul > li:hover a{
+    color: #000;
+}
+header > nav > ul > li:hover i{
+    color: #000;
+}
+header nav ul {
+    display: flex;
+}
+header nav a{
+text-decoration: none;
+}
+header nav > ul a{
+ text-decoration: none;
+ padding: 12px 24px;
+ display: block;
+ color: #fff;
+ font-size: 1.1rem;
+ text-decoration: uppercase;
+}
+header nav > ul a:hover{
+background-color: #F5E6D3;
+
+}
+.header__search>i{
+    color: #fff;
+
+    /* 1 rem = (font-size hiện tại) px */
+/* 1.1 rem = 16*1.1 px */
+font-size: 1.1rem;
+padding: 14px 24px;
+}
+.header__search>i:hover{
+background-color: #F5E6D3 ;
+}
+.nav__more{
+    display: flex;
+    position:relative;
+    align-items: center;
+
+}
+.nav__more .nav__item {
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #fff;
+width: 150%;
+    opacity: 0;
+}
+.nav__more:hover .nav__item {
+    opacity: 1;
+}
+.nav__more > a {
+ padding-right: 5px;
+
+}
+.nav__more > i{
+color: #fff;
+padding-right: 24px;
+}
+.nav__more > i:hover{
+    color: #000;
+}
+.nav__more .nav__item .a{
+    color: #000 ;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 5px;
+}
+/*CAROUSEL*/ 
+.carouselanvat .carousel-item{
+    height: 700px;
+}
+/*THE BAND*/
+.tt{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.tt .heading h1{
+    color: #4A2E1A;
+}
+
+.carousel-item > p{
+ text-align: justify;
+ line-height: 1.2rem;
+ word-spacing: 1px;
+}
+.tt_food{
+    display: flex;
+    justify-content: space-around ;
+
+}
+.tt_yum{
+    width: 160px;
+}
+.tt_yum h5{
+    font-size: 1rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.tt_yum img{
+    width: 100%;
+
+}
+/*MENU*/
+.Monannuocuong {
+    background-color: #F5EFE1;
+}
+.Monannuocuong_content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.tour_date{
+    background-color: #fff;
+    margin: 25px 0;
+}
+.tour_date ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.tour_date ul li{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+.tour_date li p{
+    margin: 15px;
+    color: #6F4E37;
+}
+.tour_date li .tour_dateSale{
+    opacity: 1;
+    background-color: #A52A2A;
+    color: #fff;
+    padding: 0 7px;
+}
+.tour_tickets{
+    display: flex;
+    justify-content:space-between ;
+}
+.tour_item{
+    background-color: #FFFFFF;
+    width: 32%;
+}
+.tour_item img{
+    width: 100%;
+}
+.tour_item h6{
+    font-size: 1.1rem;
+    padding: 20px 10px;
+    margin: 0;
+}
+.tour_item p{
+margin: 0;
+}
+.tour_item p:first-of-type{
+color: #4A2E1A;
+padding: 0 0 20px 10px;
+}
+.tour_item p:last-of-type{
+    padding-left: 10px;
+    line-height: 1.4rem;
+}
+.tour_item button{
+    padding: 10px 20px;
+    margin: 15px 10px;
+    border: none;
+    background-color:#B22222 ;
+    color: #fff;
+}
+.tour_item button:hover{
+    background-color: #cc4747;
+    color: #000
+}
+/*CONTACT*/
+.contact_content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.contact_left .contact_item{
+display: flex;
+margin-bottom: 10px;
+align-items: center;
+}
+.contact_left .contact_item p{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 20px;
+}
+.contact_right .contact_input{
+    display: flex;
+    margin-bottom: 10px;
+}
+.conact_right input{
+    padding: 10px;
+    border: 1px solid #4A2E1A;
+    width: 100%;
+}
+.contact_input input:first-of-type{
+margin-right: 20px;
+}
+.contact_right button{
+    float: right;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: #B22222;
+    color: #ffffff;
+}
+.contact_right button:hover{
+    background-color:#cc4747;
+    color: #000;
+}
+.contact .heading h1{
+    color: #7B3F00;
+}
+.contact .heading p{
+    color: #6F4E37;
+}
+/*image*/ 
+.image{
+    background-image: url('./banner\ slide.png');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    filter: grayscale(50%);
+    margin: 85px 0 ;
+}
+/* FOOTER*/
+footer{
+    color: #6F4E37;
+    text-align: center;
+    margin-bottom: 85px;
+}
+footer .footer_icon{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #4A2E1A;
+}
+footer p a{
+    color: #4A2E1A;
+    text-decoration: none
+
+}
